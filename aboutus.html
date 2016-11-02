@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags go here -->
+
+    <title>Proj 3: Mock Business Site - About Us Page</title>
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aclonica|Acme|Amaranth|El+Messiri|Kite+One|Voltaire" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.purple-lime.min.css" />
+    <link rel="stylesheet" href="wizbiz.css">
+    <style type="text/css">
+        .mdl-button {
+        }
+    </style>
+</head>
+
+
+<body id="aboutUsPage">
+<div class="container layout-transparent mdl-layout mdl-js-layout">
+    <header id="aboutUsHdr" class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <div id="mainTitleDiv">
+                <a id="titleButton" href="index.html">
+                    <button  class="mdl-button">
+                    <span id="mainTitle" class="mdl-layout-title"> Sorcerous Supplies
+                    <span> <p id="subTitle">A Division of WizBiz Industries</p></span></span>
+                    </button>
+
+                </a>
+            </div>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav id="topNav" class="mdl-navigation">
+                <a href="potions.html">
+                    <button id="men1" class="mdl-button mdl-js-button">
+                        Potions
+                    </button>
+                </a>
+
+                <a href="spells.html">
+                    <button id="men2" class="mdl-button mdl-js-button">
+                        Spells
+                    </button>
+                </a>
+
+                <a href="para.html">
+                    <button class="mdl-button mdl-js-button">
+                        Accessories
+                    </button>
+                </a>
+
+                <a href="animals.html">
+                    <button id="men4" class="mdl-button mdl-js-button">
+                        Animal Companions
+                    </button>
+                </a>
+
+                <a href="links.html">
+                    <button id="men5" class="mdl-button mdl-js-button">
+                        Creepy Links
+                    </button>
+                </a>
+
+                <a href="aboutus.html">
+                    <button id="men6" class="mdl-button mdl-js-button">
+                        About Us
+                    </button>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="mdl-layout__drawer">
+        <span id="drawerTitle" class="mdl-layout-title">Sorcerous Supplies</span>
+        <nav id="drawer" class="mdl-navigation">
+            <a class="mdl-navigation__link" href="potions.html">Potions</a>
+            <a class="mdl-navigation__link" href="spells.html">Spells</a>
+            <a class="mdl-navigation__link" href="para.html">Accessories</a>
+            <a class="mdl-navigation__link" href="animals.html">Animal Companions</a>
+            <a class="mdl-navigation__link" href="links.html">Creepy Links</a>
+            <a class="mdl-navigation__link" href="aboutus.html">About Us</a>
+        </nav>
+    </div>
+
+    <main id="aboutUsContent" class="mdl-layout__content">
+        <h2>About Us</h2>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--5-col">
+                <div  class="mdl-card mdl-shadow--6dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Map</h2>
+                    </div>
+                    <div class="mdl-card__media">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11827.43006026805!2d-88.29403763243!3d42.174729279199695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f0dad4fe2308f%3A0x9e18213d483aba1a!2s901+Cary+Rd%2C+Algonquin%2C+IL+60102!5e0!3m2!1sen!2sus!4v1476881577368" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div id="mapSub" class="mdl-card__supporting-text">
+                        Come find us in Algonquin!
+                    </div>
+                </div>
+            </div>
+            <div  class="mdl-cell mdl-cell--7-col">
+                <div  class="card-wide mdl-card mdl-shadow--6dp">
+                    <div id="grTitle" class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Information</h2>
+                    </div>
+
+                    <div  class="mdl-card__supporting-text">
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--4-col">
+                                <h5>Location:</h5>
+                            </div>
+                            <div class="mdl-cell mdl-cell--8-col">
+                                <p>901 Cary Rd. <br>
+                                Algonquin, IL 60102</p>
+                            </div>
+                        </div>
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--4-col">
+                                <h5>Hours:</h5>
+                            </div>
+                            <div class="mdl-cell mdl-cell--8-col">
+                                <p>Mon-Fri 10am - 4pm <br>
+                                    Sat 10am - 2pm <br>
+                                    Closed Sunday</p>
+                            </div>
+                        </div>
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--4-col">
+                                <h5>Email Address:</h5>
+                            </div>
+                            <div class="mdl-cell mdl-cell--8-col">
+                                <div class="mdl-layout-spacer"></div>
+                                <p>sswizbiz@gmail.com</p>
+                                <div class="mdl-layout-spacer"></div>
+                            </div>
+                        </div>
+                        <div class="mdl-grid">
+                            <div class="mdl-cell mdl-cell--4-col">
+                                <h5>Phone:</h5>
+                            </div>
+                            <div class="mdl-cell mdl-cell--8-col">
+                                <p>847-123-4567</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        Find us on
+                        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="#ffffff" d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+                            </svg>
+                        </button>
+                        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                            <path fill="#ffffff" d="M17.71,9.33C17.64,13.95 14.69,17.11 10.28,17.31C8.46,17.39 7.15,16.81 6,16.08C7.34,16.29 9,15.76 9.9,15C8.58,14.86 7.81,14.19 7.44,13.12C7.82,13.18 8.22,13.16 8.58,13.09C7.39,12.69 6.54,11.95 6.5,10.41C6.83,10.57 7.18,10.71 7.64,10.74C6.75,10.23 6.1,8.38 6.85,7.16C8.17,8.61 9.76,9.79 12.37,9.95C11.71,7.15 15.42,5.63 16.97,7.5C17.63,7.38 18.16,7.14 18.68,6.86C18.47,7.5 18.06,7.97 17.56,8.33C18.1,8.26 18.59,8.13 19,7.92C18.75,8.45 18.19,8.93 17.71,9.33M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
+                        </svg>
+                        </button>
+                    </div>
+                    <div class="mdl-card__menu">
+                        <button id="share" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                            <i class="material-icons">share</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col">
+                <p class="left-footer">Images courtesy of  <a href="https://pixabay.com/">Pixabay </a> <br>
+                </p>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col right-footer">
+                <p>&copy Janet Weber <br>
+                    WEB-115 Fall 2016</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>

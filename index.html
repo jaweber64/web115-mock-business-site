@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags go here -->
+
+    <title>Proj 3: Mock Business Site - Home Page</title>
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aclonica|Acme|Amaranth|El+Messiri|Kite+One|Voltaire" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.purple-lime.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="wizbiz.css">
+    <style type="text/css">
+        .mdl-button {
+        }
+    </style>
+</head>
+
+
+<body id="homePage">
+    <div class="container layout-transparent mdl-layout mdl-js-layout">
+    <header id="homePageHdr" class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <div id="mainTitleDiv">
+            <a id="titleButton" href="index.html">
+                <button  class="mdl-button">
+                    <span id="mainTitle" class="mdl-layout-title"> Sorcerous Supplies
+                    <span> <p id="subTitle">A Division of WizBiz Industries</p></span></span>
+                </button>
+
+            </a>
+            </div>
+            <!-- Add spacer, to align navigation to the right -->
+            <!--<div class="mdl-layout-spacer"></div>-->
+            <!-- Navigation -->
+            <nav id="topNav" class="mdl-navigation">
+                <a href="potions.html">
+                    <button id="men1" class="mdl-button mdl-js-button">
+                        Potions
+                    </button>
+                </a>
+
+                <a href="spells.html">
+                    <button id="men2" class="mdl-button mdl-js-button">
+                        Spells
+                    </button>
+                </a>
+
+                <a href="para.html">
+                    <button class="mdl-button mdl-js-button">
+                        Accessories
+                    </button>
+                </a>
+
+                <a href="animals.html">
+                    <button id="men4" class="mdl-button mdl-js-button">
+                        Animal Companions
+                    </button>
+                </a>
+
+                <a href="links.html">
+                    <button id="men5" class="mdl-button mdl-js-button">
+                        Creepy Links
+                    </button>
+                </a>
+
+                <a href="aboutus.html">
+                    <button class="mdl-button mdl-js-button">
+                        About Us
+                    </button>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mdl-layout__drawer">
+        <span id="drawerTitle" class="mdl-layout-title">Sorcerous Supplies</span>
+        <nav id="drawer" class="mdl-navigation">
+            <a class="mdl-navigation__link" href="potions.html">Potions</a>
+            <a class="mdl-navigation__link" href="spells.html">Spells</a>
+            <a class="mdl-navigation__link" href="para.html">Accessories</a>
+            <a class="mdl-navigation__link" href="animals.html">Animal Companions</a>
+            <a class="mdl-navigation__link" href="links.html">Creepy Links</a>
+            <a class="mdl-navigation__link" href="aboutus.html">About Us</a>
+        </nav>
+    </div>
+
+    <main id="homePageContent" class="mdl-layout__content">
+        <h3>The #1 Source in the Midwest</h3>
+        <h4>for all your ghoulish gear, witch <span class="italics">"wat-cha-ma-call-its"</span> and wizardly widgets!</h4>
+
+        <h3>&nbsp;</h3>
+        <div class="mdl-grid" >
+            <div id="scard" class="mdl-cell mdl-cell--4-col">
+                <div class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">Spells &nbsp;<span class="sm-text"> available for download</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col">
+                <h3 style="text-shadow: 3px 3px 6px #7B1FA2">Fundamental Accessories!</h3>
+            </div>
+            <div id="pcard" class= "mdl-cell mdl-cell--4-col">
+                <div  class="demo-card-square mdl-card mdl-shadow--2dp">
+                    <div class="mdl-card__title mdl-card--expand">
+                        <h2 class="mdl-card__title-text">Potions <span class="sm-text"> &nbsp;&nbsp;download ingredients list OR ship ready-made to your door</span> </h2>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <h3>&nbsp;</h3>
+        <h3>Annual After-Halloween BLOWOUT starts November 5th! <br>
+            Up to 50% off!</h3>
+        <h3>&nbsp;</h3>
+        <h5>Our Motto: We're not <span class="italics">lie</span>-able!</h5>
+    </main>
+
+    <footer>
+        <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col">
+                <p class="left-footer">Images courtesy of <a href="https://pixabay.com/">Pixabay </a> <br>
+                Content from: ...</p>
+            </div>
+            <div class="mdl-cell mdl-cell--6-col right-footer">
+                <p>&copy Janet Weber <br>
+                WEB-115 Fall 2016</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

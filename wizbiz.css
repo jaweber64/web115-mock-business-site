@@ -1,0 +1,285 @@
+body {font-family: 'Voltaire', sans-serif; }
+
+/*
+font-family: 'Voltaire', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Amaranth', sans-serif;
+font-family: 'Aclonica', sans-serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Kite One', sans-serif;
+*/
+
+.container{
+    max-width: 960px;
+    min-height: 500px;
+    margin: auto; }
+
+#homePage,
+#potionsPage,
+#spellsPage,
+#paraPage,
+#linksPage,
+#aboutUsPage
+    {background-color: #7B1FA2;
+    background-size: cover;}
+#animalsPage
+    {background-color: #757575;
+    background-size: cover;}
+
+ #homePageHdr,
+ #aboutUsHdr
+    {background:url('images/witch.png');
+     opacity: 0.8;
+     background-repeat: no-repeat;
+     background-size: cover; }
+
+#potionsHdr {background: url('images/potions.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #BDBDBD;}
+
+#spellsHdr {background: url('images/spells.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #BDBDBD;}
+
+#paraHdr {background: url('images/cauldron.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #BDBDBD;}
+
+#animalsHdr {background: url('images/frog.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #BDBDBD;}
+#linksHdr {background: url('images/ghouls.png');
+    background-repeat: no-repeat;
+    background-color: #E1BEE7;
+    background-size: contain;}
+
+ #homePageContent,
+ #aboutUsContent
+    {background: url('images/pgbckgrnd.png');
+     background-color:#7B1FA2; }
+#linksContent,
+#animalsContent
+    {background-color: #E1BEE7;}
+#potionsContent,
+#spellsContent,
+#paraContent
+    {background-color: #BDBDBD;}
+
+.leftfooter, .rightfooter {padding-bottom: 5px;}
+.left-footer p {text-align: left;}
+.right-footer p {text-align: right;}
+footer a {color: black;}
+footer.mdl-grid.mdl-cell p {padding-top: 0;}
+footer div.mdl-grid {padding-left: 0;
+    padding-top: 0;
+padding-bottom: 0;}
+
+.layout-transparent .mdl-layout__drawer-button {
+    color: #CDDC39;
+    margin-top: 25%;}
+
+.mdl-layout__header-row {margin-top: 25%;}
+
+.mdl-layout__drawer {
+    margin-top: 25%;
+    font-family: 'Acme', sans-serif;
+    background-color: #E1BEE7;}
+
+.mdl-layout__title, .mdl-layout-title {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 2em;
+    color: #CDDC39;}
+ #mainTitle {
+    text-shadow: 3px 3px 8px #E1BEE7;
+     text-align: left;}
+
+#subTitle {
+    font-family: 'El Messiri', sans-serif;  }
+#drawerTitle {
+    font-size: 1.1em;
+    text-shadow: 4px 4px 8px #212121; }
+
+#mainTitleDiv {width: 27%;}
+a#titleButton .mdl-button{
+    text-transform: none;
+    height: auto; }
+
+nav .mdl-button, nav .mdl-js-button
+ {  font-family: 'Aclonica', sans-serif;
+    color: #CDDC39;
+    min-width: 50px;
+    max-width: 140px;
+    line-height: 18px;
+    text-transform: none;}
+#men5 {width: 90px;}
+
+#topNav {margin-top: 3%; }
+
+.mdl-button:hover, .mdl-js-button:hover{
+    color: white;}
+
+.mdl-menu {font-family: 'Acme', sans-serif;
+    background-color: #E1BEE7;
+    color: #212121;  }
+
+h2 {font-family: 'El Messiri', sans-serif;
+    color: black;
+    text-align: center;}
+
+/*******************************************************/
+/* Home Page styling                                    */
+/*******************************************************/
+#homePageContent {padding: 10px;}
+#homePageContent h3,
+#homePageContent h4, h5 {text-align: center;}
+#homePageContent h3 {margin-bottom: 0;
+                     text-shadow: 3px 3px 6px #CDDC39;   }
+#homePageContent h4 {margin-top: 0;
+                    color: #CDDC39;
+                    text-shadow: 3px 3px 3px black;}
+#homePageContent h5 {color: #7B1FA2;
+                    text-shadow: 2px 2px 2px black;}
+#homePageContent .mdl-cell.mdl-cell--4-col {text-align: center;
+                    align-self: center;}
+ #pcard, #scard   {padding-left: 20px;}
+
+.italics {font-style: italic;}
+
+.demo-card-square.mdl-card {
+    width: 250px;
+    height: 250px;}
+
+#scard.mdl-cell .demo-card-square > .mdl-card__title {background: url('images/spells.png');
+    background-size: 250px 250px;
+    padding-bottom: 0;}
+#pcard.mdl-cell .demo-card-square > .mdl-card__title {background: url('images/potions.png');
+    background-size: 250px 250px; }
+
+#pcard .mdl-card__title-text {align-self: flex-start;}
+.sm-text {font-size: .6em;
+    padding-top: 10px;
+    padding-bottom: 0;
+    text-align: left;}
+#pcard .sm-text{padding-left: 35px;}
+#cTxt .h3{text-shadow: 3px 3px 6px #7B1FA2;}
+
+/*******************************************************/
+/* Accessories, Spells, Potions Page styling           */
+/*******************************************************/
+
+#paraPage footer {background-color: #E1BEE7;}
+
+#potionsContent p img,
+#paraContent p img,
+#spellsContent p img {height:100px;}
+
+#potionsContent p,
+#paraContent p,
+#spellsContent p {
+    font-size: 1.3em;}
+
+#potionsContent .mdl-card__supporting-text,
+#paraContent .mdl-card__supporting-text,
+#spellsContent .mdl-card__supporting-text {
+    background-color: #E1BEE7;
+    font-size: 1.1em;
+    width: auto;}
+
+#potionsContent button,
+#paraContent button,
+#spellsContent button {
+    color: white;
+    font-weight: bold;}
+
+#prodimg, #spellimg, #potimg
+    {width: 200px;
+    float: left;
+    padding-right: 20px;}
+
+#prodcard, #spellcard, #potcard
+    {display: none; }
+
+.prod-thumbs img{width: 100px;
+    background-color: white;
+    margin-right: 10px;}
+
+.prod-thumbs  .mdl-cell {
+    background-color: #E1BEE7;
+    cursor: pointer;}
+
+.prod-thumbs p {margin-bottom: 0;}
+
+.card-info {width: 600px;}
+
+.displayspell, .displaypotion {
+    width: 50%;
+    height: 90%;
+    float:right;
+    background-color: #E1BEE7;
+    font-size: 1em;
+    font-family: 'Voltaire', sans-serif;
+    border-style: hidden;
+}
+#free, #cost, #spellcost, #potcost {text-align: center;}
+#ingred, #instr {text-align: left;}
+#potionsContent h5 {text-align: left;}
+
+/*******************************************************/
+/* Animal Page styling                                 */
+/*******************************************************/
+#animalsPage .thumb {width: 100px;}
+#animalsPage h3 {cursor: pointer; position: relative;}
+#animalsPage img {position: relative;}
+#animalsPage main { padding-left: 3em;
+    padding-right: 3em;}
+#animalsPage .description {font-size: 1.6em;}
+.myThumb {width:50px;
+    margin-right: 5px;
+    padding-right: 5px;}
+
+.description {display: none;}
+
+/*******************************************************/
+/* Links Page styling                                  */
+/*******************************************************/
+#linksPage #mainTitle {text-shadow: 3px 3px 4px black;}
+#linksPage .mdl-layout__drawer-button {text-shadow: 2px 2px 2px black}
+#linksPage nav button {text-shadow: 2px 2px 2px black;}
+#linksContent a {color: black;
+        text-decoration: none;
+        font-size: 1.2em;}
+#linksContent a:hover {color: #7B1FA2;}
+#linksContent h4 {color: #7B1FA2;
+            text-shadow: 2px 2px 2px black;}
+
+/*******************************************************/
+/* About Us Page styling                               */
+/*******************************************************/
+.card-wide {width: 512px;}
+.card-wide .mdl-card__supporting-text {
+    color: #CDDC39; }
+
+.mdl-card, .mdl-shadow--6dp,
+.mdl-card__supporting-text
+{background-color: #212121;}
+.mdl-card__title, #mapSub
+{background-color: #7B1FA2;
+    color: white;
+    text-align: center;}
+
+.mdl-card__actions {font-size: 1.2em;
+    text-align: center;
+    color: white;
+    background-color: #7B1FA2; }
+
+.mdl-cell {font-family: 'Voltaire', sans-serif;
+    text-align: left;}
+.mdl-cell h5 {font-family: 'Voltaire', sans-serif;}
+#aboutUsPage.mdl-cell p {font-size: 1.2em;
+    padding-top: 20px;}
+
+#share {color: white;}
